@@ -1,0 +1,531 @@
+{
+  "ok": true,
+  "source": "mock",
+  "wpApiUrl": "http://localhost:8888/wp-json",
+  "counts": {
+    "pages": 7,
+    "posts": 5
+  },
+  "pages": [
+    {
+      "id": "pg-inicio",
+      "slug": "inicio",
+      "title": "Inicio",
+      "seoTitle": "Consultoría de Luz y Gas",
+      "seoDescription": "Consultoría independiente de luz, gas y energía solar. Optimiza tus tarifas y reduce tu factura energética.",
+      "blocks": [
+        {
+          "id": "b1",
+          "key": "hero_eyebrow",
+          "type": "text",
+          "position": 0,
+          "data": "Consultoría energética independiente"
+        },
+        {
+          "id": "b2",
+          "key": "hero_title",
+          "type": "text",
+          "position": 1,
+          "data": "Paga solo por la energía que necesitas"
+        },
+        {
+          "id": "b3",
+          "key": "hero_lead",
+          "type": "text",
+          "position": 2,
+          "data": "Analizamos tu factura de luz y gas, comparamos el mercado y te asesoramos sin coste para que ahorres cada mes. También te ayudamos a dar el salto a la energía solar."
+        },
+        {
+          "id": "b3-precios-eyebrow",
+          "key": "precios_eyebrow",
+          "type": "text",
+          "position": 3,
+          "data": "El mercado, hoy"
+        },
+        {
+          "id": "b3-precios-titulo",
+          "key": "precios_titulo",
+          "type": "text",
+          "position": 4,
+          "data": "El precio de la energía, de un vistazo"
+        },
+        {
+          "id": "b3-precios-desc",
+          "key": "precios_descripcion",
+          "type": "text",
+          "position": 5,
+          "data": "Seguimos el mercado por ti. Estos son los precios de referencia de hoy — la base desde la que analizamos si tu contrato sigue siendo el adecuado."
+        },
+        {
+          "id": "b3-metodo-eyebrow",
+          "key": "metodo_eyebrow",
+          "type": "text",
+          "position": 6,
+          "data": "Cómo trabajamos"
+        },
+        {
+          "id": "b3-metodo-titulo",
+          "key": "metodo_titulo",
+          "type": "text",
+          "position": 7,
+          "data": "Método ModeLuz<sup>®</sup>"
+        },
+        {
+          "id": "b3-metodo-desc",
+          "key": "metodo_descripcion",
+          "type": "text",
+          "position": 8,
+          "data": "Cada fase es un peldaño. Subimos contigo, paso a paso, hacia el ahorro sostenible."
+        },
+        {
+          "id": "b3-pilares",
+          "key": "pilares",
+          "type": "list",
+          "position": 9,
+          "data": "[{\"t\":\"Transparencia\",\"d\":\"Explicamos. Nunca ocultamos.\"},{\"t\":\"Independencia\",\"d\":\"Pensamos en el cliente, no en una compañía.\"},{\"t\":\"Confianza\",\"d\":\"Cumplimos lo que prometemos. Sin falsas expectativas.\"},{\"t\":\"Cercanía\",\"d\":\"Tratamos personas, no contratos.\"},{\"t\":\"Profesionalidad\",\"d\":\"Analizamos antes de recomendar. Siempre.\"},{\"t\":\"Evolución continua\",\"d\":\"Revisamos, optimizamos y mejoramos.\"}]"
+        },
+        {
+          "id": "b3-metodo",
+          "key": "metodo",
+          "type": "list",
+          "position": 10,
+          "data": "[{\"n\":\"01\",\"t\":\"Escuchamos\",\"d\":\"Todo empieza con una conversación: cómo consumes, qué necesitas y qué esperas de nosotros.\"},{\"n\":\"02\",\"t\":\"Analizamos\",\"d\":\"Auditoría energética completa: facturas, potencias, tarifas, penalizaciones e ineficiencias.\"},{\"n\":\"03\",\"t\":\"Diseñamos\",\"d\":\"Elaboramos una propuesta personalizada, no decenas de opciones. Solo la que mejor te encaja.\"},{\"n\":\"04\",\"t\":\"Gestionamos\",\"d\":\"Nos ocupamos de todos los trámites: cambios, potencia y contratos. Tú no pierdes tiempo.\"},{\"n\":\"05\",\"t\":\"Acompañamos\",\"d\":\"Seguimiento continuo. Resolvemos dudas e informamos de novedades. No desaparecemos tras la firma.\"},{\"n\":\"06\",\"t\":\"Optimizamos\",\"d\":\"Revisamos periódicamente cada contrato para mantener el ahorro en el tiempo.\"}]"
+        },
+        {
+          "id": "b3-pilares-eyebrow",
+          "key": "sec_pilares_eyebrow",
+          "type": "text",
+          "position": 11,
+          "data": "En qué creemos"
+        },
+        {
+          "id": "b3-pilares-titulo",
+          "key": "sec_pilares_titulo",
+          "type": "text",
+          "position": 12,
+          "data": "Los seis pilares de <em>ModeLuz</em>"
+        },
+        {
+          "id": "b3-pilares-desc",
+          "key": "sec_pilares_descripcion",
+          "type": "text",
+          "position": 13,
+          "data": "Los principios que guían cada decisión que tomamos por ti."
+        },
+        {
+          "id": "b3-pilares-cta-titulo",
+          "key": "sec_pilares_cta_titulo",
+          "type": "text",
+          "position": 14,
+          "data": "¿Ponemos tu energía bajo control?"
+        },
+        {
+          "id": "b3-pilares-cta-desc",
+          "key": "sec_pilares_cta_desc",
+          "type": "text",
+          "position": 15,
+          "data": "Te preparamos un estudio sin compromiso, con total transparencia."
+        }
+      ]
+    },
+    {
+      "id": "pg-luz",
+      "slug": "luz",
+      "title": "Luz",
+      "seoTitle": null,
+      "seoDescription": "Asesoramiento en tarifas de luz para hogares y empresas.",
+      "blocks": [
+        {
+          "id": "b4",
+          "key": "hero_eyebrow",
+          "type": "text",
+          "position": 0,
+          "data": "Electricidad"
+        },
+        {
+          "id": "b5",
+          "key": "hero_title",
+          "type": "text",
+          "position": 1,
+          "data": "Luz"
+        },
+        {
+          "id": "b6",
+          "key": "hero_lead",
+          "type": "text",
+          "position": 2,
+          "data": "Comparamos las tarifas eléctricas del mercado y te ayudamos a elegir la potencia y el precio del kWh que mejor encajan con tu consumo real."
+        },
+        {
+          "id": "b6-secciones",
+          "key": "secciones",
+          "type": "list",
+          "position": 3,
+          "data": "[{\"id\":\"hogar\",\"label\":\"Hogar\",\"eyebrow\":\"Para tu casa\",\"title\":\"Luz para el hogar\",\"intro\":\"Menos preocupaciones y más ahorro en la factura de tu casa, con acompañamiento cercano y sin tecnicismos.\",\"puntos\":[{\"t\":\"Revisión de facturas\",\"d\":\"Analizamos tu factura de luz línea a línea —potencia, término de energía, impuestos y cargos— y te explicamos qué pagas realmente. Detectamos errores y sobrecostes que se cuelan cada mes.\"},{\"t\":\"Cambio de comercializadora\",\"d\":\"Si existe una tarifa mejor para tu consumo, gestionamos todo el cambio: papeleo, plazos y sin cortes de suministro. Con independencia: no trabajamos para ninguna compañía.\"},{\"t\":\"Asesoramiento\",\"d\":\"Resolvemos tus dudas con lenguaje claro, sin letra pequeña. Te acompañamos antes, durante y después para que tomes cada decisión con confianza.\"}]},{\"id\":\"empresas\",\"label\":\"Empresas\",\"eyebrow\":\"Para tu negocio\",\"title\":\"Luz para empresas\",\"intro\":\"Optimizamos la energía de tu negocio para que pagues solo por lo que necesitas, con seguimiento continuo.\",\"puntos\":[{\"t\":\"Auditoría energética\",\"d\":\"Estudiamos a fondo el consumo de tu empresa: facturas, curvas de carga, hábitos y puntos de suministro. Una foto completa para saber exactamente dónde se va tu dinero.\"},{\"t\":\"Optimización de contrato\",\"d\":\"Ajustamos tu contrato a la realidad de tu actividad —tarifa, periodos y condiciones— eliminando costes innecesarios y penalizaciones evitables.\"},{\"t\":\"Estudio de potencia\",\"d\":\"Calculamos la potencia óptima en cada periodo para que no pagues de más ni sufras cortes por exceso de demanda. El equilibrio exacto para tu operativa.\"},{\"t\":\"Monitorización de consumo\",\"d\":\"Seguimos tu consumo de forma continua y te avisamos ante una desviación o una nueva oportunidad de mejora. El mercado cambia; nosotros vigilamos por ti.\"}]},{\"id\":\"comunidad\",\"label\":\"Comunidad de propietarios\",\"eyebrow\":\"Para tu comunidad\",\"title\":\"Luz para comunidades de propietarios\",\"intro\":\"Reducimos la factura energética de las zonas comunes con un informe claro, fácil de aprobar en junta.\",\"puntos\":[{\"t\":\"Optimización\",\"d\":\"Revisamos los suministros comunes —ascensores, iluminación, garaje, piscina— y ajustamos potencias y tarifas para reducir la cuota energética de toda la comunidad.\"},{\"t\":\"Revisión de facturas\",\"d\":\"Auditamos las facturas de las zonas comunes, detectamos errores y sobrecostes, y presentamos un informe claro para la junta, fácil de entender y aprobar.\"}]}]"
+        },
+        {
+          "id": "b6-faq",
+          "key": "faq",
+          "type": "list",
+          "position": 4,
+          "data": "[{\"q\":\"¿El asesoramiento tiene algún coste?\",\"r\":\"No. El estudio de tu factura de luz y la propuesta de optimización son gratuitos y sin compromiso. Solo pagas tu tarifa a la comercializadora, nunca a nosotros por asesorarte.\"},{\"q\":\"¿Estoy obligado a cambiar de compañía?\",\"r\":\"En absoluto. Analizamos tu caso y te decimos con claridad si te conviene cambiar o no. Si tu tarifa actual ya es buena, te lo diremos: trabajamos para ti, no para una comercializadora.\"},{\"q\":\"¿Perderé el suministro durante el cambio?\",\"r\":\"No. El cambio de comercializadora es un trámite administrativo que se gestiona sin cortes ni obras: usas la misma red y el mismo contador. No notarás nada salvo en la factura.\"},{\"q\":\"¿Sois independientes de las eléctricas?\",\"r\":\"Sí. No trabajamos en exclusiva para ninguna compañía, así que comparamos todo el mercado y te recomendamos la opción que más te conviene a ti, no la que más nos conviene a nosotros.\"},{\"q\":\"¿Qué necesitáis para revisar mi contrato?\",\"r\":\"Con una factura reciente es suficiente para empezar. En ella están la potencia contratada, el término de energía y los peajes, que es lo que analizamos para detectar sobrecostes.\"},{\"q\":\"¿Cuánto puedo llegar a ahorrar?\",\"r\":\"Depende de tu consumo y de tu contrato actual, así que no prometemos cifras a ciegas. Tras revisar tu factura te damos un ahorro estimado realista, con números concretos antes de decidir nada.\"}]"
+        },
+        {
+          "id": "b6-faq-intro",
+          "key": "faq_intro",
+          "type": "text",
+          "position": 5,
+          "data": "Resolvemos las dudas más habituales sobre tu contrato de luz."
+        }
+      ]
+    },
+    {
+      "id": "pg-gas",
+      "slug": "gas",
+      "title": "Gas",
+      "seoTitle": null,
+      "seoDescription": "Asesoramiento en tarifas de gas natural para hogares y empresas.",
+      "blocks": [
+        {
+          "id": "b7",
+          "key": "hero_eyebrow",
+          "type": "text",
+          "position": 0,
+          "data": "Gas natural"
+        },
+        {
+          "id": "b8",
+          "key": "hero_title",
+          "type": "text",
+          "position": 1,
+          "data": "Gas"
+        },
+        {
+          "id": "b9",
+          "key": "hero_lead",
+          "type": "text",
+          "position": 2,
+          "data": "Revisamos tu contrato de gas natural, identificamos sobrecostes y te proponemos la tarifa más adecuada según tu peaje y tu consumo anual."
+        },
+        {
+          "id": "b9-secciones",
+          "key": "secciones",
+          "type": "list",
+          "position": 3,
+          "data": "[{\"id\":\"hogar\",\"label\":\"Hogar\",\"eyebrow\":\"Para tu casa\",\"title\":\"Gas para el hogar\",\"intro\":\"Menos preocupaciones y más ahorro en la factura de gas de tu casa, con acompañamiento cercano y sin tecnicismos.\",\"puntos\":[{\"t\":\"Revisión de facturas\",\"d\":\"Analizamos tu factura de gas línea a línea —término fijo, término de consumo, peaje e impuestos— y te explicamos qué pagas realmente. Detectamos errores y sobrecostes que se cuelan cada mes.\"},{\"t\":\"Cambio de comercializadora\",\"d\":\"Si existe una tarifa de gas mejor para tu consumo, gestionamos todo el cambio: papeleo, plazos y sin cortes de suministro. Con independencia: no trabajamos para ninguna compañía.\"},{\"t\":\"Asesoramiento\",\"d\":\"Resolvemos tus dudas sobre tu contrato de gas con lenguaje claro, sin letra pequeña. Te acompañamos antes, durante y después para que decidas con confianza.\"}]},{\"id\":\"empresas\",\"label\":\"Empresas\",\"eyebrow\":\"Para tu negocio\",\"title\":\"Gas para empresas\",\"intro\":\"Optimizamos el gas de tu negocio para que pagues solo por lo que necesitas, con seguimiento continuo.\",\"puntos\":[{\"t\":\"Auditoría energética\",\"d\":\"Estudiamos a fondo el consumo de gas de tu empresa: facturas, curvas de consumo, hábitos y puntos de suministro. Una foto completa para saber exactamente dónde se va tu dinero.\"},{\"t\":\"Optimización de contrato\",\"d\":\"Ajustamos tu contrato de gas —peaje, tarifa de acceso y condiciones— a la realidad de tu actividad, eliminando costes innecesarios y penalizaciones evitables.\"},{\"t\":\"Estudio de peaje y caudal\",\"d\":\"Revisamos el peaje y el caudal contratado según tu consumo anual para situarte en el tramo de tarifa correcto: ni pagando de más, ni con penalizaciones por exceso.\"},{\"t\":\"Monitorización de consumo\",\"d\":\"Seguimos tu consumo de gas de forma continua y te avisamos ante una desviación o una nueva oportunidad de mejora. El mercado cambia; nosotros vigilamos por ti.\"}]},{\"id\":\"comunidad\",\"label\":\"Comunidad de propietarios\",\"eyebrow\":\"Para tu comunidad\",\"title\":\"Gas para comunidades de propietarios\",\"intro\":\"Reducimos la factura de gas de las zonas comunes con un informe claro, fácil de aprobar en junta.\",\"puntos\":[{\"t\":\"Optimización\",\"d\":\"Revisamos el gas de las zonas comunes —calefacción central y agua caliente sanitaria— y ajustamos peaje y tarifa para reducir la cuota energética de toda la comunidad.\"},{\"t\":\"Revisión de facturas\",\"d\":\"Auditamos las facturas de gas de las zonas comunes, detectamos errores y sobrecostes, y presentamos un informe claro para la junta, fácil de entender y aprobar.\"}]}]"
+        },
+        {
+          "id": "b9-faq",
+          "key": "faq",
+          "type": "list",
+          "position": 4,
+          "data": "[{\"q\":\"¿El estudio del gas también es gratuito?\",\"r\":\"Sí. Revisamos tu factura de gas natural y te preparamos una propuesta sin coste ni compromiso. Nuestro asesoramiento no te cuesta nada.\"},{\"q\":\"¿Podéis optimizar la luz y el gas a la vez?\",\"r\":\"Por supuesto. Muchos hogares y empresas nos piden revisar ambos suministros juntos. Analizamos luz y gas de forma conjunta para que el ahorro sea el máximo posible.\"},{\"q\":\"¿Qué es el peaje y por qué importa tanto?\",\"r\":\"El peaje (tarifa de acceso) depende de tu consumo anual de gas y determina en qué tramo pagas. Estar en el tramo equivocado hace que pagues de más cada mes; lo revisamos siempre.\"},{\"q\":\"¿Perderé el suministro de gas con el cambio?\",\"r\":\"No. Igual que con la luz, cambiar de comercializadora de gas es un trámite administrativo sin cortes ni intervención en tu instalación. El suministro no se interrumpe.\"},{\"q\":\"¿Hay permanencia si cambio de tarifa?\",\"r\":\"Depende de la oferta, y por eso lo revisamos antes de recomendarte nada. Te avisamos siempre de cualquier permanencia o condición en la letra pequeña para que decidas con toda la información.\"},{\"q\":\"¿Qué necesitáis para estudiar mi caso?\",\"r\":\"Una factura de gas reciente basta para empezar: contiene el peaje, el término fijo y el término de consumo que analizamos para detectar dónde puedes ahorrar.\"}]"
+        },
+        {
+          "id": "b9-faq-intro",
+          "key": "faq_intro",
+          "type": "text",
+          "position": 5,
+          "data": "Resolvemos las dudas más habituales sobre tu contrato de gas natural."
+        }
+      ]
+    },
+    {
+      "id": "pg-solar",
+      "slug": "energia-solar",
+      "title": "Energía Solar",
+      "seoTitle": null,
+      "seoDescription": "Autoconsumo y placas solares con asesoramiento integral.",
+      "blocks": [
+        {
+          "id": "b10",
+          "key": "hero_eyebrow",
+          "type": "text",
+          "position": 0,
+          "data": "Autoconsumo"
+        },
+        {
+          "id": "b11",
+          "key": "hero_title",
+          "type": "text",
+          "position": 1,
+          "data": "Energía Solar"
+        },
+        {
+          "id": "b12",
+          "key": "hero_lead",
+          "type": "text",
+          "position": 2,
+          "data": "Te acompañamos en el salto al autoconsumo: estudio de viabilidad, instalación de placas solares, tramitación de ayudas y compensación de excedentes."
+        },
+        {
+          "id": "b12-features",
+          "key": "features",
+          "type": "list",
+          "position": 3,
+          "data": "[{\"t\":\"Estudio de viabilidad\",\"d\":\"Analizamos tu tejado, tu consumo y la orientación para saber si el autoconsumo te compensa y cuánto puedes ahorrar. Un informe claro, con números reales y sin promesas vacías, antes de invertir nada.\"},{\"t\":\"Placas solares\",\"d\":\"Diseñamos e instalamos la instalación fotovoltaica adecuada a tu consumo: número de paneles, potencia y ubicación óptima. Nos ocupamos del proyecto, la legalización y la puesta en marcha.\"},{\"t\":\"Baterías\",\"d\":\"Si te conviene, incorporamos almacenamiento para aprovechar de noche la energía que generas de día. Estudiamos primero si la batería es rentable en tu caso antes de recomendarla.\"},{\"t\":\"Compensación de excedentes\",\"d\":\"Gestionamos la compensación de la energía que viertes a la red para que se descuente en tu factura, con la modalidad y la comercializadora que mejor pagan tus excedentes.\"}]"
+        },
+        {
+          "id": "b12-faq",
+          "key": "faq",
+          "type": "list",
+          "position": 4,
+          "data": "[{\"q\":\"¿Cuánto cuesta una instalación de placas solares?\",\"r\":\"Depende del tamaño de tu tejado, tu consumo y si incluyes baterías. Por eso empezamos siempre con un estudio de viabilidad gratuito que te da el presupuesto y el ahorro con números reales antes de invertir nada.\"},{\"q\":\"¿En cuánto tiempo se amortiza la inversión?\",\"r\":\"En instalaciones bien dimensionadas, el retorno suele situarse entre los 5 y los 8 años, y las placas siguen produciendo mucho más tiempo. En tu estudio calculamos el plazo concreto para tu caso.\"},{\"q\":\"¿Necesito baterías obligatoriamente?\",\"r\":\"No siempre. Las baterías te permiten usar de noche la energía del día, pero no compensan en todos los casos. Estudiamos primero si son rentables para ti antes de recomendarlas.\"},{\"q\":\"¿Qué pasa con la energía que no consumo?\",\"r\":\"Se vierte a la red y se compensa en tu factura mediante la compensación de excedentes. Gestionamos la modalidad y la comercializadora que mejor pagan esa energía sobrante.\"},{\"q\":\"¿Os encargáis de los trámites y las ayudas?\",\"r\":\"Sí. Nos ocupamos del proyecto, la legalización, la puesta en marcha y la tramitación de las subvenciones disponibles. Tú no pierdes tiempo con el papeleo.\"},{\"q\":\"¿Mi tejado sirve para autoconsumo?\",\"r\":\"La mayoría sí, pero la orientación, la inclinación y las sombras importan. En el estudio de viabilidad analizamos tu tejado para saber cuánto puede producir realmente.\"}]"
+        },
+        {
+          "id": "b12-features-eyebrow",
+          "key": "sec_features_eyebrow",
+          "type": "text",
+          "position": 5,
+          "data": "Cómo te ayudamos"
+        },
+        {
+          "id": "b12-features-titulo",
+          "key": "sec_features_titulo",
+          "type": "text",
+          "position": 6,
+          "data": "Tu proyecto solar, paso a paso"
+        },
+        {
+          "id": "b12-features-desc",
+          "key": "sec_features_desc",
+          "type": "text",
+          "position": 7,
+          "data": "Del primer estudio hasta el aprovechamiento de cada kWh que generas."
+        },
+        {
+          "id": "b12-cta-titulo",
+          "key": "sec_cta_titulo",
+          "type": "text",
+          "position": 8,
+          "data": "¿Cuánto puede ahorrar tu tejado?"
+        },
+        {
+          "id": "b12-cta-desc",
+          "key": "sec_cta_descripcion",
+          "type": "text",
+          "position": 9,
+          "data": "Te preparamos un estudio de viabilidad sin compromiso, con números reales."
+        },
+        {
+          "id": "b12-faq-intro",
+          "key": "faq_intro",
+          "type": "text",
+          "position": 10,
+          "data": "Resolvemos las dudas más habituales sobre el autoconsumo con placas solares."
+        }
+      ]
+    },
+    {
+      "id": "pg-precio",
+      "slug": "precio-actual",
+      "title": "Precio actual",
+      "seoTitle": null,
+      "seoDescription": "Consulta el precio actual de la luz y el gas.",
+      "blocks": [
+        {
+          "id": "b13",
+          "key": "hero_eyebrow",
+          "type": "text",
+          "position": 0,
+          "data": "Mercado"
+        },
+        {
+          "id": "b14",
+          "key": "hero_title",
+          "type": "text",
+          "position": 1,
+          "data": "Precio actual"
+        },
+        {
+          "id": "b15",
+          "key": "hero_lead",
+          "type": "text",
+          "position": 2,
+          "data": "Consulta el precio actualizado de la electricidad (mercado PVPC) y del gas para tomar mejores decisiones sobre tu contrato."
+        },
+        {
+          "id": "b15-faq",
+          "key": "faq",
+          "type": "list",
+          "position": 3,
+          "data": "[{\"q\":\"¿Qué es el PVPC?\",\"r\":\"El PVPC (Precio Voluntario para el Pequeño Consumidor) es la tarifa regulada de electricidad: su precio lo fija cada día el mercado mayorista y varía hora a hora. Es la referencia oficial de Red Eléctrica que mostramos en esta página.\"},{\"q\":\"¿Cada cuánto se actualiza el precio?\",\"r\":\"Los precios de todo el día se publican la tarde anterior, así que ya conoces las 24 horas antes de que empiece la jornada. Esta página se actualiza automáticamente cada día con el dato oficial de REE.\"},{\"q\":\"¿Por qué cambia el precio cada hora?\",\"r\":\"Porque el precio depende de la demanda y de las fuentes que generan energía en cada momento. Cuando hay mucho sol o viento, la electricidad suele ser más barata; en las horas de mayor consumo tiende a subir.\"},{\"q\":\"¿Cuándo me conviene consumir?\",\"r\":\"En las franjas más baratas del día (las que marcamos en verde). Mover la lavadora, el lavavajillas, el termo o la carga del coche eléctrico a esas horas puede suponer un ahorro notable a fin de mes.\"},{\"q\":\"¿El precio que mostráis incluye impuestos?\",\"r\":\"Sí. El valor en €/kWh es el precio peninsular con IVA incluido. Ten en cuenta que tu factura final también incorpora el término de potencia y otros conceptos fijos, además del consumo.\"},{\"q\":\"¿Este precio es el mismo en toda España?\",\"r\":\"Mostramos el precio peninsular. En Baleares, Canarias, Ceuta y Melilla el PVPC puede diferir ligeramente por su sistema eléctrico. Si tienes dudas sobre tu caso, revisamos tu tarifa contigo sin compromiso.\"}]"
+        },
+        {
+          "id": "b15-faq-intro",
+          "key": "faq_intro",
+          "type": "text",
+          "position": 4,
+          "data": "Resolvemos las dudas más habituales sobre el precio de la luz y el PVPC."
+        }
+      ]
+    },
+    {
+      "id": "pg-actualidad",
+      "slug": "actualidad",
+      "title": "Actualidad",
+      "seoTitle": null,
+      "seoDescription": "Conoce nuestra actividad como consultoría energética.",
+      "blocks": [
+        {
+          "id": "b16",
+          "key": "hero_eyebrow",
+          "type": "text",
+          "position": 0,
+          "data": "Al día"
+        },
+        {
+          "id": "b17",
+          "key": "hero_title",
+          "type": "text",
+          "position": 1,
+          "data": "Actualidad"
+        },
+        {
+          "id": "b18",
+          "key": "hero_lead",
+          "type": "text",
+          "position": 2,
+          "data": "Novedades del sector energético, cambios de tarifa y consejos prácticos para tus contratos de luz y gas. Te lo contamos claro y sin letra pequeña."
+        }
+      ]
+    },
+    {
+      "id": "pg-contacto",
+      "slug": "contacto",
+      "title": "Contacto",
+      "seoTitle": null,
+      "seoDescription": "Contacta con nuestra consultoría de luz, gas y energía solar.",
+      "blocks": [
+        {
+          "id": "b19",
+          "key": "hero_eyebrow",
+          "type": "text",
+          "position": 0,
+          "data": "Hablemos"
+        },
+        {
+          "id": "b20",
+          "key": "hero_title",
+          "type": "text",
+          "position": 1,
+          "data": "Contacto"
+        },
+        {
+          "id": "b21",
+          "key": "hero_lead",
+          "type": "text",
+          "position": 2,
+          "data": "Cuéntanos tu caso y te preparamos un estudio sin compromiso. Rellena el formulario y nos pondremos en contacto contigo."
+        }
+      ]
+    }
+  ],
+  "posts": [
+    {
+      "id": "post-1",
+      "collectionType": "posts",
+      "slug": "baja-precio-luz-primavera",
+      "title": "Baja el precio de la luz esta primavera",
+      "excerpt": "El PVPC toca mínimos: analizamos qué significa para tu factura.",
+      "coverMediaUrl": "https://picsum.photos/seed/modeluz-luz/1200/800",
+      "metadata": "{\"fecha\":\"2026-03-12\"}",
+      "position": 0,
+      "status": "published",
+      "publishedAt": "2026-03-12T09:00:00.000Z",
+      "blocks": [
+        {
+          "id": "pb-1",
+          "key": "content",
+          "type": "richtext",
+          "position": 0,
+          "data": "La llegada de más renovables y la caída de la demanda han dejado el precio del **PVPC** en mínimos de los últimos meses.\n\nSi tienes tarifa regulada, revisa tus horas de consumo en [optimización de luz](/luz) o el [precio actual por horas](/precio-actual)."
+        }
+      ]
+    },
+    {
+      "id": "post-2",
+      "collectionType": "posts",
+      "slug": "ayudas-autoconsumo-solar-2026",
+      "title": "Nuevas ayudas al autoconsumo solar en 2026",
+      "excerpt": "Nuevas subvenciones para instalaciones fotovoltaicas: requisitos y plazos.",
+      "coverMediaUrl": "https://picsum.photos/seed/modeluz-solar/1200/800",
+      "metadata": "{\"fecha\":\"2026-02-28\"}",
+      "position": 1,
+      "status": "published",
+      "publishedAt": "2026-02-28T09:00:00.000Z",
+      "blocks": [
+        {
+          "id": "pb-2",
+          "key": "content",
+          "type": "richtext",
+          "position": 0,
+          "data": "Se han publicado nuevas subvenciones para instalaciones de autoconsumo fotovoltaico en vivienda y empresa.\n\nEstudiamos tu caso de principio a fin: mira cómo te acompañamos en [energía solar](/energia-solar)."
+        }
+      ]
+    },
+    {
+      "id": "post-3",
+      "collectionType": "posts",
+      "slug": "leer-factura-gas-sin-perderte",
+      "title": "Cómo leer tu factura de gas sin perderte",
+      "excerpt": "Peaje, término fijo, término variable… repasamos la factura línea a línea.",
+      "coverMediaUrl": "https://picsum.photos/seed/modeluz-gas/1200/800",
+      "metadata": "{\"fecha\":\"2026-02-10\"}",
+      "position": 2,
+      "status": "published",
+      "publishedAt": "2026-02-10T09:00:00.000Z",
+      "blocks": [
+        {
+          "id": "pb-3",
+          "key": "content",
+          "type": "richtext",
+          "position": 0,
+          "data": "La factura del gas está llena de conceptos que pocas veces se explican. Hacemos un repaso claro, línea a línea.\n\n¿Crees que pagas de más? Revisamos tu contrato en la sección de [gas](/gas)."
+        }
+      ]
+    },
+    {
+      "id": "post-4",
+      "collectionType": "posts",
+      "slug": "pvpc-por-horas-cuando-consumir",
+      "title": "El PVPC por horas: cuándo sale más barato consumir",
+      "excerpt": "Planificar el consumo en horas valle puede suponer un ahorro notable.",
+      "coverMediaUrl": "https://picsum.photos/seed/modeluz-horas/1200/800",
+      "metadata": "{\"fecha\":\"2026-01-20\"}",
+      "position": 3,
+      "status": "published",
+      "publishedAt": "2026-01-20T09:00:00.000Z",
+      "blocks": [
+        {
+          "id": "pb-4",
+          "key": "content",
+          "type": "richtext",
+          "position": 0,
+          "data": "El precio de la electricidad cambia cada hora. Mover la lavadora o el coche eléctrico a los tramos valle ahorra a fin de mes.\n\nConsulta el [precio actual actualizado](/precio-actual) y organiza tu día."
+        }
+      ]
+    },
+    {
+      "id": "post-5",
+      "collectionType": "posts",
+      "slug": "fin-mercado-regulado-que-cambia",
+      "title": "Fin del mercado regulado: qué cambia para ti",
+      "excerpt": "Últimas novedades regulatorias y qué implican para hogares y empresas.",
+      "coverMediaUrl": "https://picsum.photos/seed/modeluz-mercado/1200/800",
+      "metadata": "{\"fecha\":\"2025-12-15\"}",
+      "position": 4,
+      "status": "published",
+      "publishedAt": "2025-12-15T09:00:00.000Z",
+      "blocks": [
+        {
+          "id": "pb-5",
+          "key": "content",
+          "type": "richtext",
+          "position": 0,
+          "data": "Repasamos las novedades regulatorias y qué implican para hogares y empresas. Lo importante: no hay que decidir con prisas.\n\nSi tienes dudas, [escríbenos](/contacto) y te orientamos sin compromiso."
+        }
+      ]
+    }
+  ]
+}
